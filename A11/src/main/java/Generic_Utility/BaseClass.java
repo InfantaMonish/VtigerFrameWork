@@ -20,6 +20,7 @@ public class BaseClass {
 
 	public static WebDriver driver;
 //pull code
+	//push code
 	@BeforeSuite(groups = {"smokeTest","regressionTest","sanityTest"})
 	public void BS() {
 		System.out.println("DataBase Open");
