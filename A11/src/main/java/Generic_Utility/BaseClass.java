@@ -19,7 +19,7 @@ import ObjectRepository.VtigerLoginPage;
 public class BaseClass {
 
 	public static WebDriver driver;
-
+//pull code
 	@BeforeSuite(groups = {"smokeTest","regressionTest","sanityTest"})
 	public void BS() {
 		System.out.println("DataBase Open");
